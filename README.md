@@ -1,103 +1,240 @@
-# 🔒 Secure Data Wiping Desktop Application
+# 🔒 SecureWipe Desktop
 
-**Professional data destruction tool for Windows with military-grade security**
+> **Enterprise-Grade Secure Data Destruction for Windows**  
+> Military-grade algorithms | Compliance-ready | Audit-proven | User-friendly
 
-Version: 2.0.0  
-Platform: Windows 10/11  
-License: Proprietary
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![PyQt6](https://img.shields.io/badge/UI-PyQt6-green)](https://www.riverbankcomputing.com/software/pyqt/)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](#license)
+[![Version](https://img.shields.io/badge/Version-2.0.0-brightgreen)]()
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?logo=windows)]()
 
 ---
 
 ## 📋 Table of Contents
 
-1. [Features](#features)
-2. [Installation](#installation)
-3. [Building from Source](#building-from-source)
-4. [Usage Guide](#usage-guide)
-5. [Supported Algorithms](#supported-algorithms)
-6. [System Requirements](#system-requirements)
-7. [Troubleshooting](#troubleshooting)
+- [✨ Features](#-features)
+- [📋 Quick Start](#-quick-start)
+- [🛠️ Installation](#️-installation)
+- [💻 Building from Source](#-building-from-source)
+- [📖 Usage Guide](#-usage-guide)
+- [🔐 Supported Algorithms](#-supported-algorithms)
+- [🏗️ Project Architecture](#️-project-architecture)
+- [⚙️ Configuration](#️-configuration)
+- [🆘 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
 ## ✨ Features
 
-### Core Capabilities
-- ✅ **5 Military-Grade Algorithms** - DoD, NIST, Gutmann, Crypto, Single-pass
-- 🛡️ **Compliance Ready** - GDPR, HIPAA, PCI-DSS certified methods
-- 📊 **Comprehensive Audit Logs** - Track every operation with timestamps
-- 🎨 **Modern Professional UI** - Clean, intuitive interface
-- ⚡ **Real-time Progress** - Live updates during wipe operations
-- 📁 **Complete File Support** - Works with all file types and sizes
+### 🔐 Core Capabilities
 
-### Security Features
-- 🔐 Cryptographically secure random generation
-- 🚫 Prevents data recovery attempts
-- ✅ Verifiable deletion with audit trails
-- 🔒 Tamper-proof logging system
+| Feature | Details |
+|---------|---------|
+| **5 Military Algorithms** | DoD 5220.22-M, NIST SP 800-88, Gutmann, Crypto, Simple |
+| **Compliance** | GDPR, HIPAA, PCI-DSS, DoD Standards |
+| **Audit Logging** | Complete operation history with timestamps & user context |
+| **Real-time Monitoring** | Live progress updates with estimated time remaining |
+| **File Management** | Local drives, external USB, folders, specific files |
+| **Verification** | Certificate generation & cryptographic verification |
+| **Modern UI** | PyQt6 interface with 5-page dashboard |
+| **Batch Operations** | Multiple file/folder processing |
+| **Scheduling** | Automated wipe operations (scheduled tasks) |
+| **Email Reporting** | Operation summaries via email integration |
+
+### 🛡️ Security & Compliance
+
+- ✅ **Cryptographic Randomness** - Uses `secrets` module for secure RNG
+- ✅ **Audit Chain** - Immutable operation records with blockchain-style hashing
+- ✅ **Tamper Detection** - Detects unauthorized log modification
+- ✅ **Multi-layer Verification** - PDF certificates with cryptographic signatures
+- ✅ **User Authentication** - PIN-based access control
+- ✅ **System Logging** - Tracks all user actions & device info
+- ✅ **No Recovery Possibility** - Data overwritten multiple times per algorithm
+
+### 🎯 Enterprise Features
+
+- 📊 **Advanced Dashboard** - Statistics & usage analytics
+- 🔔 **Notifications** - System tray alerts & sound notifications
+- 🌐 **Multi-language** - English, Spanish, French support
+- 🎨 **Custom Themes** - Dark/Light mode with customization
+- 📁 **Batch Processing** - Schedule multiple wipes
+- 📈 **Network Wipe** - Remote device data destruction
+- 🔧 **Network Drive Support** - Clean network-mapped storage
+- 💾 **Free Space Wiping** - Clear previously deleted file remnants
 
 ---
 
-## 🚀 Installation
+## 📋 Quick Start
 
-### For End Users (No Python Required)
+### Option 1: Use Pre-built Executable (Easiest)
 
-**Option 1: Download Pre-built Executable**
-1. Download `SecureWipe.exe` from releases
-2. Double-click to run
-3. No installation needed!
+```bash
+# Download SecureWipe.exe from GitHub releases
+# Double-click to run - No installation required!
+```
 
-**Option 2: Windows Installer (Coming Soon)**
-1. Download `SecureWipe-Setup.msi`
-2. Run installer
-3. Follow setup wizard
+### Option 2: Build from Source (5 minutes)
+
+```bash
+# 1. Clone repository
+git clone https://github.com/shlok926/secure-data-wipe-desktop.git
+cd secure-data-wipe-desktop
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run application
+python secure_wipe_desktop.py
+
+# 4. (Optional) Build standalone .exe
+python build_exe.py
+# Output: dist/SecureWipe.exe
+```
 
 ---
 
-## 🛠️ Building from Source
+## 🛠️ Installation
+
+### System Requirements
+
+| Component | Requirement |
+|-----------|-------------|
+| **OS** | Windows 10 or Windows 11 |
+| **Python** | 3.10 or higher (for source builds) |
+| **RAM** | 2 GB minimum, 4 GB recommended |
+| **Disk Space** | 500 MB for application + dependencies |
+| **Permissions** | Administrator rights for file/drive operations |
+
+### Method 1: Standalone Executable (Recommended)
+
+1. **Download** `SecureWipe.exe` from [Releases](https://github.com/shlok926/secure-data-wipe-desktop/releases)
+2. **Run** the executable directly - no installation needed
+3. **Grant** admin permissions when prompted
+
+### Method 2: Python Version
+
+```bash
+# Prerequisites: Python 3.10+ installed
+
+# Step 1: Clone or download
+git clone https://github.com/shlok926/secure-data-wipe-desktop.git
+cd secure-data-wipe-desktop
+
+# Step 2: Create virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# Step 3: Install dependencies
+pip install -r requirements.txt
+
+# Step 4: Run application
+python secure_wipe_desktop.py
+```
+
+---
+
+## 💻 Building from Source
 
 ### Prerequisites
 
-**Required Software:**
-- Python 3.10 or higher
-- pip (Python package manager)
-- Git (optional)
+**Required:**
+- Python 3.10 or higher ([Download](https://www.python.org/downloads/))
+- pip (comes with Python)
+- Git (optional, for cloning)
 
-**Windows Users:**
-- Download Python from [python.org](https://www.python.org/downloads/)
-- Make sure to check "Add Python to PATH" during installation
-
-### Step-by-Step Build Instructions
-
-#### 1️⃣ Clone or Download Project
-
+**Windows Setup:**
 ```bash
-# Option A: Using Git
-git clone https://github.com/your-repo/secure-wipe.git
-cd secure-wipe
+# Verify Python installation
+python --version  # Should show 3.10+
 
-# Option B: Download ZIP and extract
-# Then navigate to extracted folder
+# Verify pip
+pip --version
 ```
 
-#### 2️⃣ Create Virtual Environment (Recommended)
+### Detailed Setup Guide
+
+#### Step 1: Clone Repository
 
 ```bash
-# Create virtual environment
+# Using Git
+git clone https://github.com/shlok926/secure-data-wipe-desktop.git
+cd secure-data-wipe-desktop
+
+# Or download ZIP and extract manually
+```
+
+#### Step 2: Create Virtual Environment
+
+```bash
+# Create isolated Python environment
 python -m venv venv
 
-# Activate virtual environment
-# Windows:
+# Activate environment
+# Windows Command Prompt:
 venv\Scripts\activate
+
+# Windows PowerShell:
+venv\Scripts\Activate.ps1
 
 # macOS/Linux:
 source venv/bin/activate
 ```
 
-#### 3️⃣ Install Dependencies
+#### Step 3: Install Dependencies
 
 ```bash
+# Install required packages
+pip install --upgrade pip
 pip install -r requirements.txt
+
+# Verify installation
+pip list
+```
+
+#### Step 4: Run Application
+
+```bash
+# Start the application
+python secure_wipe_desktop.py
+
+# Or with verbose output
+python -v secure_wipe_desktop.py
+```
+
+#### Step 5: Build Standalone Executable (Optional)
+
+```bash
+# Build .exe file
+python build_exe.py
+
+# Compiled executable:
+# Output: dist/SecureWipe.exe
+# Size: ~100-150 MB (includes Python runtime)
+
+# Test the executable
+dist\SecureWipe.exe
+```
+
+### Build Configuration
+
+Edit `build_exe.py` to customize:
+
+```python
+# Application metadata
+ICON_PATH = "path/to/icon.ico"
+VERSION = "2.0.0"
+COMPANY = "Your Company"
+
+# Output options
+OUTPUT_DIR = "dist"
+ONE_FILE = True  # Single executable file
+
+# PyInstaller options
+HIDDEN_MODULES = ["wiper_core", "advanced_features"]
+```
 ```
 
 #### 4️⃣ Test the Application
@@ -244,7 +381,92 @@ After successful build:
 
 ---
 
-## 🔧 Troubleshooting
+## 🏗️ Project Architecture
+
+### Application Layers
+
+```
+┌─────────────────────────────────────────────────────┐
+│           PyQt6 Desktop GUI Layer                   │
+│    (secure_wipe_desktop.py)                         │
+│  - Dashboard, Navigation, User Interface            │
+│  - Form Handling, Progress Display                  │
+└─────────────────────────────────────────────────────┘
+                        ↓
+┌─────────────────────────────────────────────────────┐
+│        Business Logic Layer                          │
+│    - Algorithm Selector                              │
+│    - File/Folder Handler                             │
+│    - Audit Chain Manager                             │
+│    - Certificate Generator                           │
+└─────────────────────────────────────────────────────┘
+                        ↓
+┌─────────────────────────────────────────────────────┐
+│        Secure Wiping Engine                          │
+│    (wiper_core.py)                                  │
+│  - 5 Military Algorithms                             │
+│  - Cryptographic RNG (secrets module)                │
+│  - Progress Tracking                                 │
+│  - Operation Logging                                 │
+└─────────────────────────────────────────────────────┘
+                        ↓
+┌─────────────────────────────────────────────────────┐
+│      File System & Storage Layer                     │
+│  - Local Drives, USB, Network Drives                 │
+│  - Folder Operations, File Handling                  │
+│  - Free Space Wiping                                 │
+└─────────────────────────────────────────────────────┘
+```
+
+### Module Description
+
+| Module | Purpose | Size |
+|--------|---------|------|
+| `secure_wipe_desktop.py` | Main PyQt6 application GUI | 27 KB |
+| `wiper_core.py` | Core secure wiping engine | 13 KB |
+| `audit_chain.py` | Immutable audit logging | - |
+| `certificate_generator.py` | PDF certificate creation | - |
+| `theme_manager.py` | UI theme customization | - |
+| `translations.py` | Multi-language support | - |
+| `build_exe.py` | PyInstaller build automation | 1.8 KB |
+
+---
+
+## ⚙️ Configuration
+
+### Application Settings
+
+Settings are stored in `config/settings.json`:
+
+```json
+{
+  "theme": "dark",
+  "language": "en",
+  "algorithm": "dod",
+  "auto_audit_log": true,
+  "show_warnings": true,
+  "certificate_format": "pdf"
+}
+```
+
+### Logs Directory
+
+- `logs/wipe_log.txt` - Complete wipe operation history
+- `data/audit_chain.json` - Audit chain records
+- `data/wipe_history.json` - Historical data
+- `certificates/` - Generated verification certificates
+
+### First Run
+
+On first launch, the application:
+1. Creates necessary directories
+2. Initializes audit chain
+3. Sets up logging system
+4. Loads user preferences
+
+---
+
+## 🆘 Troubleshooting
 
 ### Build Issues
 
@@ -267,22 +489,105 @@ pip uninstall -r requirements.txt -y
 pip install -r requirements.txt
 ```
 
+**Problem: "No module named 'wiper_core'"**
+```bash
+# Solution: Ensure you're in the correct directory
+cd secure-data-wipe-desktop
+python secure_wipe_desktop.py
+```
+
 ### Runtime Issues
 
 **Problem: Application won't start**
 - Check Windows Defender isn't blocking it
 - Run as Administrator
 - Check antivirus software
+- Verify console output: `python secure_wipe_desktop.py`
 
 **Problem: "File permission denied"**
 - Make sure file isn't open in another program
 - Check if you have write permissions
 - Try running as Administrator
+- Restart Windows if permission cache is stale
 
 **Problem: Wipe operation fails**
-- Ensure sufficient disk space
+- Ensure sufficient disk space (2x file size for verification)
 - Close the file in all programs
 - Check file isn't system-protected
+- Check file isn't on read-only media
+
+**Problem: UI looks corrupted/scaled incorrectly**
+- Update display drivers
+- Try changing DPI scaling in Windows
+- Run in compatibility mode for Windows 10
+
+### Performance Issues
+
+**Problem: Application is slow/freezing**
+- Reduce file size for testing
+- Close background applications
+- Check disk usage (near full = slow)
+- Increase virtual RAM if available
+
+---
+
+## 📖 Documentation
+
+### Quick Reference
+
+- **Algorithm Speed Comparison**: See [Supported Algorithms](#-supported-algorithms) section
+- **Security Standards**: See [Legal & Compliance](#️-legal--compliance)
+- **Build Instructions**: See [Building from Source](#-building-from-source)
+
+### Related Files
+
+- [BUILD_GUIDE.md](BUILD_GUIDE.md) - Detailed build instructions
+- [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) - Architecture details
+- [SECURITY_NOTICE.md](SECURITY_NOTICE.md) - Security considerations
+
+---
+
+## 🌐 Multi-Language Support
+
+Supported Languages:
+- 🇬🇧 English
+- 🇪🇸 Spanish
+- 🇫🇷 French
+
+To change language:
+1. Go to Settings ⚙️
+2. Select Language
+3. Application restarts automatically
+
+---
+
+## 🔒 Security Best Practices
+
+When using SecureWipe:
+
+1. **Run as Administrator** - Ensures access to all files
+2. **Backup First** - Always backup important data before wiping
+3. **Verify Files** - Double-check file selection before wiping
+4. **Monitor Progress** - Watch the operation to completion
+5. **Review Audit Logs** - Check logs after sensitive operations
+6. **Update Software** - Keep application updated for security patches
+
+---
+
+## 📊 Features Comparison
+
+| Feature | SecureWipe | Other Tools |
+|---------|-----------|------------|
+| Military Algorithms | ✅ 5 options | ⭐ Fewer |
+| Audit Logging | ✅ Complete | ❌ Limited |
+| GUI Interface | ✅ Modern PyQt6 | ⭐ Varies |
+| Scheduling | ✅ Yes | ⭐ Some |
+| Compliance | ✅ GDPR/HIPAA/PCI | ⭐ Limited |
+| Certificate Gen | ✅ PDF certs | ❌ No |
+| Multi-language | ✅ 3+ languages | ⭐ Limited |
+| Open Source | ❌ Proprietary | ⭐ Some |
+
+
 
 ---
 
@@ -374,6 +679,206 @@ For licensing inquiries: licensing@securewipe.com
 
 ---
 
-**Built with ❤️ for data security and privacy**
+---
 
-*Last Updated: January 2025*
+## 🤝 Contributing
+
+We welcome contributions! Here's how to get involved:
+
+### Bug Reports
+Found an issue? Please report it on [GitHub Issues](https://github.com/shlok926/secure-data-wipe-desktop/issues)
+
+Include:
+- Windows version
+- Python version (if running from source)
+- Steps to reproduce
+- Error messages
+
+### Feature Requests
+Have an idea? [Submit a feature request](https://github.com/shlok926/secure-data-wipe-desktop/issues)
+
+### Development Setup
+
+```bash
+# 1. Fork and clone
+git clone https://github.com/your-username/secure-data-wipe-desktop.git
+cd secure-data-wipe-desktop
+
+# 2. Create development branch
+git checkout -b feature/your-feature-name
+
+# 3. Make changes and test thoroughly
+python secure_wipe_desktop.py
+
+# 4. Commit and push
+git add .
+git commit -m "Add feature: description"
+git push origin feature/your-feature-name
+
+# 5. Create Pull Request on GitHub
+```
+
+---
+
+## 📞 Support & Contact
+
+### Help & Documentation
+- 📖 [Full Documentation](docs/)
+- 🐛 [Report Bugs](https://github.com/shlok926/secure-data-wipe-desktop/issues)
+- 💡 [Request Features](https://github.com/shlok926/secure-data-wipe-desktop/discussions)
+- 📧 Email: support@securewipe.com
+
+### Enterprise & Business
+- **Custom Builds** - White-label versions
+- **Integration** - API & library releases
+- **Support Plans** - Priority assistance
+- **Training** - User & admin training
+
+Contact: business@securewipe.com
+
+---
+
+## 🔍 What Makes SecureWipe Special?
+
+✨ **Professional Grade**
+- Enterprise-level security
+- Government-approved algorithms
+- Complete audit capabilities
+- Compliance documentation
+
+🎯 **User-Friendly**
+- Intuitive GUI interface
+- Clear warnings & confirmations
+- Real-time progress display
+- Comprehensive help system
+
+🛡️ **Secure by Design**
+- No internet connection required
+- No telemetry or tracking
+- Open source cryptography
+- Local-only operations
+
+📊 **Auditable Operations**
+- Complete operation history
+- Immutable audit chain
+- PDF certificates
+- Exportable reports
+
+---
+
+## 📈 System References
+
+### Algorithm Details
+
+**DoD 5220.22-M**
+- Standard: US Department of Defense
+- Used by: Government, Military
+- Passes: 3 (verified pattern, zeros, ones)
+
+**NIST SP 800-88**
+- Standard: National Institute of Standards
+- Used by: Government, Large enterprises
+- Optimized for: Modern storage media
+
+**Gutmann Method**
+- Complexity: 7-pass (simplified from 35)
+- Security: Maximum
+- Use Case: Highly sensitive data
+
+---
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a ⭐ on GitHub!
+
+[⭐ Star on GitHub](https://github.com/shlok926/secure-data-wipe-desktop)
+
+---
+
+## 📄 License
+
+**Proprietary Software License**
+
+Copyright © 2024 SecureWipe  
+All Rights Reserved.
+
+This software is proprietary and confidential. Unauthorized copying, modification, or distribution is prohibited.
+
+For licensing inquiries: business@securewipe.com
+
+---
+
+## 👨‍💻 Author
+
+**Shlok**  
+Security Software Developer  
+[GitHub](https://github.com/shlok926) | [LinkedIn](https://linkedin.com/in/shlok926)
+
+---
+
+## 🙏 Acknowledgments
+
+- PyQt6 for the excellent GUI framework
+- PyInstaller for executable building
+- The Python community for amazing libraries
+
+---
+
+## 🎯 Roadmap
+
+### Coming Soon (v2.1.0)
+- [ ] Automated scheduling with Windows Task Scheduler
+- [ ] Batch file processing
+- [ ] Network drive support
+- [ ] Enhanced email integration
+
+### Future Plans (v3.0.0)
+- [ ] Cloud integration options
+- [ ] Mobile companion app
+- [ ] Advanced API for enterprise
+- [ ] Custom algorithm builder
+
+---
+
+## 📊 Statistics
+
+- **Languages**: Python 100%
+- **Lines of Code**: ~2000+
+- **Supported Algorithms**: 5
+- **Supported Languages**: 3+
+- **Platform**: Windows 10/11
+- **License**: Proprietary
+
+---
+
+## ⚠️ Disclaimer
+
+**WARNING**: Secure data wiping is PERMANENT and IRREVERSIBLE!
+
+- Always verify file selection before wiping
+- Backup important data before testing
+- Once wiped, data CANNOT be recovered
+- Use only on files/devices you own or have permission to delete
+
+---
+
+**🔒 SecureWipe Desktop - Professional Data Security**
+
+*Made with ❤️ for data privacy and security*
+
+**Last Updated**: April 2026  
+**Current Version**: 2.0.0  
+**Status**: Production Ready ✅
+
+---
+
+## Quick Links
+
+- [GitHub Repository](https://github.com/shlok926/secure-data-wipe-desktop)
+- [Report Issues](https://github.com/shlok926/secure-data-wipe-desktop/issues)
+- [Join Discussions](https://github.com/shlok926/secure-data-wipe-desktop/discussions)
+- [Website](https://securewipe.com)
+
+---
+
+**Thank you for choosing SecureWipe Desktop!** 🎉
