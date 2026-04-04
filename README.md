@@ -1,13 +1,40 @@
-# 🔒 SecureWipe Desktop
+<div align="center">
 
-> **Enterprise-Grade Secure Data Destruction for Windows**  
-> Military-grade algorithms | Compliance-ready | Audit-proven | User-friendly
+# 🔐 SecureWipe Desktop
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![PyQt6](https://img.shields.io/badge/UI-PyQt6-green)](https://www.riverbankcomputing.com/software/pyqt/)
-[![License](https://img.shields.io/badge/License-Proprietary-red)](#license)
-[![Version](https://img.shields.io/badge/Version-2.0.0-brightgreen)]()
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?logo=windows)]()
+## **Enterprise-Grade Secure Data Destruction for Windows**
+
+### Military-grade algorithms • Compliance-ready • Audit-proven • User-friendly
+
+---
+
+### 🎯 Key Features at a Glance
+
+<table>
+<tr>
+<td align="center">🗑️<br><strong>5 Algorithms</strong><br>DoD, NIST, Gutmann</td>
+<td align="center">📋<br><strong>Full Audit</strong><br>Complete History</td>
+<td align="center">🛡️<br><strong>Compliance</strong><br>GDPR, HIPAA, PCI</td>
+<td align="center">⚡<br><strong>Real-time</strong><br>Live Progress</td>
+</tr>
+</table>
+
+---
+
+### 🏆 Status & Tech Stack
+
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![PyQt6](https://img.shields.io/badge/UI-PyQt6-green?style=for-the-badge&logo=qt)](https://www.riverbankcomputing.com/software/pyqt/)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#license)
+[![Version](https://img.shields.io/badge/Version-2.0.0-brightgreen?style=for-the-badge)]()
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=for-the-badge&logo=windows)]()
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)]()
+
+---
+
+[⬇️ Quick Install](#-quick-start) • [📖 Full Docs](#-table-of-contents) • [🚀 Build Guide](#️-building-from-source) • [🤝 Contribute](#-contributing)
+
+</div>
 
 ---
 
