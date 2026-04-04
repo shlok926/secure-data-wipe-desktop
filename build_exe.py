@@ -30,7 +30,7 @@ pyi_args = [
     '--name=%s' % APP_NAME,
     '--onefile',
     '--windowed',
-    # '--icon=icon.ico',
+    '--icon=icon.ico',  # Professional SecureWipe icon
     '--hidden-import=PyQt6',
     '--hidden-import=PyQt6.QtCore',
     '--hidden-import=PyQt6.QtWidgets',
