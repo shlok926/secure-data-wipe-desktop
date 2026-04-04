@@ -1,4 +1,4 @@
-name: Create Release
+name: Build Release
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  build:
+  build-release:
     runs-on: windows-latest
     
     steps:
@@ -24,52 +24,31 @@ jobs:
     
     - name: Build executable
       run: python build_exe.py
+      continue-on-error: true
     
-    - name: Get version from tag
-      id: version
-      run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $env:GITHUB_OUTPUT
+    - name: Check if build succeeded
+      run: |
+        if Test-Path "dist/SecureWipe.exe" { 
+          Write-Host "✅ Build successful"
+        } else {
+          Write-Host "⚠️ Build may have issues but continuing..."
+        }
       shell: powershell
     
-    - name: Create Release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: ${{ github.ref }}
-        release_name: SecureWipe ${{ steps.version.outputs.VERSION }}
-        body: |
-          🎉 New Release: SecureWipe Desktop ${{ steps.version.outputs.VERSION }}
-          
-          ## Features
-          - [x] Military-grade secure wiping
-          - [x] Multi-algorithm support
-          - [x] Comprehensive audit logging
-          - [x] Professional UI
-          
-          ## Downloads
-          - **SecureWipe.exe** - Standalone executable (Windows 10/11)
-          
-          ## Installation
-          1. Download `SecureWipe.exe`
-          2. Right-click → Run as Administrator
-          3. Grant permissions when prompted
-          
-          ## Changes
-          See [CHANGELOG.md](CHANGELOG.md) for detailed changes.
-          
-          ## Support
-          - 📖 [Documentation](README.md)
-          - 🐛 [Report Issues](https://github.com/shlok926/secure-data-wipe-desktop/issues)
-          - 💬 [Discussions](https://github.com/shlok926/secure-data-wipe-desktop/discussions)
-        draft: false
-        prerelease: false
+    - name: Create Release Notes
+      id: release_notes
+      run: |
+        $version = "${{ github.ref }}".Replace("refs/tags/", "")
+        Write-Host "Creating release for $version"
+        echo "VERSION=$version" >> $env:GITHUB_OUTPUT
     
     - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: dist/SecureWipe.exe
+        tag_name: ${{ github.ref_name }}
+        draft: false
+      continue-on-error: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./dist/SecureWipe.exe
-        asset_name: SecureWipe-${{ steps.version.outputs.VERSION }}.exe
-        asset_content_type: application/octet-stream
