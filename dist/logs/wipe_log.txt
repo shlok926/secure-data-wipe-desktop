@@ -1,0 +1,6 @@
+2026-03-24 11:52:42,936 - INFO - Starting wipe: D:/Downloads/github-recovery-codes (1).txt (206 bytes) with dod
+2026-03-24 11:52:43,039 - INFO - Successfully wiped: D:/Downloads/github-recovery-codes (1).txt
+2026-03-24 11:55:44,903 - INFO - Starting wipe: C:/Users/Shlok/OneDrive/Videos/Captures/WhatsApp 2026-02-10 00-44-29.mp4 (1917662 bytes) with crypto
+2026-03-24 11:55:45,128 - INFO - Successfully wiped: C:/Users/Shlok/OneDrive/Videos/Captures/WhatsApp 2026-02-10 00-44-29.mp4
+2026-03-24 11:56:48,316 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/sounds/success.wav (31796 bytes) with nist
+2026-03-24 11:56:48,365 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/sounds/success.wav

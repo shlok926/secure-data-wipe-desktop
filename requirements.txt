@@ -1,0 +1,25 @@
+# Secure Wipe Desktop Application - Dependencies
+# Updated for Python 3.13+ compatibility
+# Install with: pip install -r requirements.txt
+
+# GUI Framework - Latest versions
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+PyQt6-sip>=13.6.0
+PyQt6-Charts>=6.6.0
+
+# Packaging & Distribution - Latest version
+PyInstaller>=6.15.0
+pyinstaller-hooks-contrib>=2024.0
+
+# PDF Certificate Generation
+reportlab>=4.0.0
+
+# Optional: FastAPI backend (if integrating web features)
+# fastapi>=0.109.0
+# uvicorn>=0.27.0
+# pydantic>=2.5.3
+
+# Optional: Advanced features
+psutil>=5.9.7
+cryptography>=41.0.7

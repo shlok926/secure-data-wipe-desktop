@@ -1,0 +1,103 @@
+ID,Timestamp,File Name,File Path,Size (MB),Algorithm,Status,Duration (s),Certificate,Operator,Machine
+B2D80D3EB007,2026-03-20 19:08:05,Screenshot 2026-03-18 185807.png,C:/Users/Shlok/OneDrive/사진/Screenshots/Screenshot 2026-03-18 185807.png,0.00,🔒 NIST SP 800-88 (Modern SSDs),Success,0.00,certificates\wipe_cert_D182DD2CC76356A3.pdf,Shlok,LAPTOP-PKCSFT8H
+8178E8642452,2026-03-20 19:21:10,wipe_cert_D182DD2CC76356A3.pdf,D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_D182DD2CC76356A3.pdf,0.00,🛡️ DoD 5220.22-M (3 passes) - Recommended,Success,0.00,certificates\wipe_cert_25C4CC11B9812062.pdf,Shlok,LAPTOP-PKCSFT8H
+0E455A01DD67,2026-03-23 14:48:51,Untitled11.ipynb,D:/Downloads/Untitled11.ipynb,0.00,🔑 Cryptographic Erase,Success,0.00,certificates\wipe_cert_3D4E12F762E81458.pdf,Shlok,LAPTOP-PKCSFT8H
+5C33CED4EF7B,2026-03-23 15:45:47,img_flowchart_horizontal.png,D:/Downloads/img_flowchart_horizontal.png,0.00,🔑 Cryptographic Erase,Success,0.00,certificates\wipe_cert_DC1265E002521E67.pdf,Shlok,LAPTOP-PKCSFT8H
+29E6AFF51917,2026-03-23 15:46:12,Poster_Canva_Style_A3.png,D:/Downloads/Poster_Canva_Style_A3.png,0.00,🛡️ DoD 5220.22-M (3 passes) - Recommended,Success,0.00,certificates\wipe_cert_0A411358BB7B793D.pdf,Shlok,LAPTOP-PKCSFT8H
+E590B0AF2D6D,2026-03-23 19:06:20,Experiment No.5 (FDS).html,D:/Downloads/Experiment No.5 (FDS).html,0.00,🛡️ DoD 5220.22-M (3 passes) - Recommended,Success,0.00,certificates\wipe_cert_DB0121B870D5AA8A.pdf,Shlok,LAPTOP-PKCSFT8H
+2580DF8971DF,2026-03-23 19:12:59,"Mar 17, 2026, 12_00_23 PM.png","D:/Downloads/Mar 17, 2026, 12_00_23 PM.png",2.05,🛡️ DoD 5220.22-M (3 passes) - Recommended,Success,0.00,certificates\wipe_cert_AC610E62313BED1F.pdf,Shlok,LAPTOP-PKCSFT8H
+45CB46D722A7,2026-03-23 19:17:50,final Mini Project1.pptx,D:/Downloads/final Mini Project1.pptx,0.62,🛡️ DoD 5220.22-M (3 passes) - Recommended,Success,0.00,certificates\wipe_cert_F938B5C4784FA931.pdf,Shlok,LAPTOP-PKCSFT8H
+E7C132396C36,2026-03-24 00:17:18,[SYSTEM] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1,[SYSTEM] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1,0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+539C8971440E,2026-03-24 00:23:37,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 2.67GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 2.67GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+EC0AFA321D6C,2026-03-24 00:26:30,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.1GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.1GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+E994B7F3CA14,2026-03-24 00:27:37,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.04GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.04GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+80F2911DCAB5,2026-03-24 00:29:22,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.19GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.19GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+F035DA80D5B4,2026-03-24 00:30:30,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.39GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.39GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+94548616A250,2026-03-24 00:35:54,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.5GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.5GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+D13EFCC7E46E,2026-03-24 00:40:36,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.72GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.72GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+CA567A955417,2026-03-24 00:42:55,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.52GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.52GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+DB6C77E097DD,2026-03-24 00:44:12,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.06GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.06GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+4BABE1079275,2026-03-24 00:47:11,theme_manager.py,D:/Downloads/theme_manager.py,0.01,🔑 Cryptographic Erase,Success,0.00,certificates\wipe_cert_15C84E366D7CB941.pdf,Shlok,LAPTOP-PKCSFT8H
+BA1525DB52B4,2026-03-24 00:52:08,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.31GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.31GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+CF79C0FFB660,2026-03-24 00:55:59,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.43GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 4.43GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+15A47CDAC1E3,2026-03-24 01:09:40,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.97GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.97GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+7DE44C24AF1C,2026-03-24 01:11:19,"[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.81GB)","[PIN AUTH] User: Shlok | Host: LAPTOP-PKCSFT8H | IP: 192.168.56.1
+OS: Windows 11 | Arch: 64bit | CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Python: 3.14.2 | App: 2.0.0
+CPUs: 12 | RAM: 15.73GB (Avail: 3.81GB)",0.00,PIN Authentication,Success,0.00,,Shlok,LAPTOP-PKCSFT8H
+6B3950F8BE41,2026-03-24 01:19:05,secure_wipe_only.html,D:/Downloads/secure_wipe_only.html,0.02,crypto,Success,0.01,,Shlok,LAPTOP-PKCSFT8H

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "219EEBA8CCF1",
+        "timestamp": "2026-03-24T11:52:43.045927",
+        "file_path": "D:/Downloads/github-recovery-codes (1).txt",
+        "file_name": "github-recovery-codes (1).txt",
+        "file_size": 206,
+        "algorithm": "🛡️ DoD 5220.22-M (3 passes) - Recommended",
+        "success": true,
+        "duration_seconds": 0.0,
+        "certificate_path": "certificates\\wipe_cert_6AFD42B49AB99A81.pdf",
+        "error_message": null,
+        "operator": "Shlok",
+        "machine": "LAPTOP-PKCSFT8H"
+    },
+    {
+        "id": "254F41E78FAB",
+        "timestamp": "2026-03-24T11:55:45.135271",
+        "file_path": "C:/Users/Shlok/OneDrive/Videos/Captures/WhatsApp 2026-02-10 00-44-29.mp4",
+        "file_name": "WhatsApp 2026-02-10 00-44-29.mp4",
+        "file_size": 1917662,
+        "algorithm": "🔑 Cryptographic Erase",
+        "success": true,
+        "duration_seconds": 0.0,
+        "certificate_path": "certificates\\wipe_cert_83BF84E5F695BC3E.pdf",
+        "error_message": null,
+        "operator": "Shlok",
+        "machine": "LAPTOP-PKCSFT8H"
+    },
+    {
+        "id": "D8E3FF9B80F2",
+        "timestamp": "2026-03-24T11:56:48.373038",
+        "file_path": "D:/Desktop/Secure Electronic Devices/sounds/success.wav",
+        "file_name": "success.wav",
+        "file_size": 31796,
+        "algorithm": "🔒 NIST SP 800-88 (Modern SSDs)",
+        "success": true,
+        "duration_seconds": 0.0,
+        "certificate_path": "certificates\\wipe_cert_107527F665927545.pdf",
+        "error_message": null,
+        "operator": "Shlok",
+        "machine": "LAPTOP-PKCSFT8H"
+    }
+]

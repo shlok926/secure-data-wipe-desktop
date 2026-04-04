@@ -1,0 +1,68 @@
+2026-02-14 10:31:45,626 - INFO - Starting wipe: C:/Users/Shlok/OneDrive/\ubb38\uc11c/Soft Computing Notes (Unit 1).docx (23217 bytes) with dod
+2026-02-14 10:31:45,658 - INFO - Successfully wiped: C:/Users/Shlok/OneDrive/\ubb38\uc11c/Soft Computing Notes (Unit 1).docx
+2026-02-14 11:23:39,980 - INFO - Starting wipe: D:/Project'S/Secure Data Wiping Research Paper/penerbit,+155-164.pdf (486261 bytes) with gutmann
+2026-02-14 11:23:40,137 - INFO - Successfully wiped: D:/Project'S/Secure Data Wiping Research Paper/penerbit,+155-164.pdf
+2026-02-14 12:00:20,465 - INFO - Starting wipe: D:/Project'S/Secure Data Wiping Research Paper/STEP_BY_STEP_GUIDE (1).pdf (62861 bytes) with dod
+2026-02-14 12:00:20,545 - INFO - Successfully wiped: D:/Project'S/Secure Data Wiping Research Paper/STEP_BY_STEP_GUIDE (1).pdf
+2026-02-14 12:30:50,250 - INFO - Starting wipe: D:/Project'S/Secure Data Wiping Research Paper/STEP_BY_STEP_GUIDE (1).pdf (62861 bytes) with dod
+2026-02-14 12:30:50,313 - INFO - Successfully wiped: D:/Project'S/Secure Data Wiping Research Paper/STEP_BY_STEP_GUIDE (1).pdf
+2026-02-14 16:18:23,648 - INFO - Starting wipe: D:/Downloads/A2_Template_GHRaisoni_Poster.pdf (5022946 bytes) with gutmann
+2026-02-14 16:18:24,020 - INFO - Successfully wiped: D:/Downloads/A2_Template_GHRaisoni_Poster.pdf
+2026-02-14 16:55:07,963 - INFO - Starting wipe: D:/Downloads/Gemini_Generated_Image_1d8n6y1d8n6y1d8n.png (1227125 bytes) with dod
+2026-02-14 16:55:08,020 - INFO - Successfully wiped: D:/Downloads/Gemini_Generated_Image_1d8n6y1d8n6y1d8n.png
+2026-02-14 16:55:43,016 - INFO - Starting wipe: D:/Downloads/A2_Clean_Nasha_Mukti_Poster.pdf (5022836 bytes) with dod
+2026-02-14 16:55:43,090 - INFO - Successfully wiped: D:/Downloads/A2_Clean_Nasha_Mukti_Poster.pdf
+2026-02-14 17:32:00,518 - INFO - Starting wipe: D:/Downloads/A2_Dont_Take_Bait_Poster.pdf (453987 bytes) with dod
+2026-02-14 17:32:00,562 - INFO - Successfully wiped: D:/Downloads/A2_Dont_Take_Bait_Poster.pdf
+2026-02-14 17:32:42,450 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_6EC4DD35102CCB95.pdf (2849 bytes) with nist
+2026-02-14 17:32:42,457 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_6EC4DD35102CCB95.pdf
+2026-02-14 17:33:29,068 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_4C5B45F342810D7A.pdf (2843 bytes) with nist
+2026-02-14 17:33:29,070 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_4C5B45F342810D7A.pdf
+2026-02-14 21:39:36,621 - INFO - Starting wipe: D:/Downloads/audit_log_20260214_103244.txt (146 bytes) with gutmann
+2026-02-14 21:39:36,686 - INFO - Successfully wiped: D:/Downloads/audit_log_20260214_103244.txt
+2026-02-14 21:49:41,140 - INFO - Starting wipe: D:/Downloads/EAsy Money Hard Sequences.png (2770534 bytes) with dod
+2026-02-14 21:49:41,217 - INFO - Successfully wiped: D:/Downloads/EAsy Money Hard Sequences.png
+2026-02-14 21:51:58,925 - INFO - Starting wipe: D:/Downloads/Sports vs Addiction (Athlete Power Theme).png (2580801 bytes) with dod
+2026-02-14 21:51:58,996 - INFO - Successfully wiped: D:/Downloads/Sports vs Addiction (Athlete Power Theme).png
+2026-02-14 22:03:27,557 - INFO - Starting wipe: D:/Downloads/SecureErase_Certificate_2026-02-14.pdf (1737 bytes) with gutmann
+2026-02-14 22:03:27,612 - INFO - Successfully wiped: D:/Downloads/SecureErase_Certificate_2026-02-14.pdf
+2026-02-15 15:05:03,715 - INFO - Starting wipe: D:/Downloads/Health Is Your wealth.png (2792417 bytes) with dod
+2026-02-15 15:05:03,803 - INFO - Successfully wiped: D:/Downloads/Health Is Your wealth.png
+2026-02-15 16:05:26,491 - INFO - Starting wipe: D:/Downloads/Nasha_Mukti_A2_Poster_GHRaisoni_Final.pdf (5040813 bytes) with gutmann
+2026-02-15 16:05:26,702 - INFO - Successfully wiped: D:/Downloads/Nasha_Mukti_A2_Poster_GHRaisoni_Final.pdf
+2026-02-15 16:06:42,505 - INFO - Starting wipe: D:/Downloads/November attendence sheet.docx (25488 bytes) with gutmann
+2026-02-15 16:06:42,607 - INFO - Successfully wiped: D:/Downloads/November attendence sheet.docx
+2026-02-15 23:49:03,013 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_09A71AFD01603536.pdf (2838 bytes) with dod
+2026-02-15 23:49:03,031 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_09A71AFD01603536.pdf
+2026-02-19 15:11:48,923 - INFO - Starting wipe: D:/Downloads/run.py (867 bytes) with gutmann
+2026-02-19 15:11:48,972 - INFO - Successfully wiped: D:/Downloads/run.py
+2026-03-08 22:40:56,819 - INFO - Starting wipe: D:/Downloads/config_backup_20260308_222456.json (983 bytes) with crypto
+2026-03-08 22:40:56,824 - INFO - Successfully wiped: D:/Downloads/config_backup_20260308_222456.json
+2026-03-08 22:51:24,769 - INFO - Starting wipe: D:/Downloads/day_2_session_2.py (10753 bytes) with gutmann
+2026-03-08 22:51:24,832 - INFO - Successfully wiped: D:/Downloads/day_2_session_2.py
+2026-03-08 23:00:06,219 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/test_files/test_wipe_150MB.dat (157286400 bytes) with nist
+2026-03-08 23:00:06,488 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/test_files/test_wipe_150MB.dat
+2026-03-20 15:46:25,728 - INFO - Starting wipe: D:/Downloads/read_syllabus.py (621 bytes) with nist
+2026-03-20 15:46:25,751 - INFO - Successfully wiped: D:/Downloads/read_syllabus.py
+2026-03-20 16:56:30,136 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_E93B7C054679093A.pdf (2818 bytes) with gutmann
+2026-03-20 16:56:30,192 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_E93B7C054679093A.pdf
+2026-03-20 19:08:05,041 - INFO - Starting wipe: C:/Users/Shlok/OneDrive/\uc0ac\uc9c4/Screenshots/Screenshot 2026-03-18 185807.png (142458 bytes) with nist
+2026-03-20 19:08:05,046 - INFO - Successfully wiped: C:/Users/Shlok/OneDrive/\uc0ac\uc9c4/Screenshots/Screenshot 2026-03-18 185807.png
+2026-03-20 19:21:10,186 - INFO - Starting wipe: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_D182DD2CC76356A3.pdf (2834 bytes) with dod
+2026-03-20 19:21:10,209 - INFO - Successfully wiped: D:/Desktop/Secure Electronic Devices/certificates/wipe_cert_D182DD2CC76356A3.pdf
+2026-03-23 14:48:50,983 - INFO - Starting wipe: D:/Downloads/Untitled11.ipynb (514632 bytes) with crypto
+2026-03-23 14:48:51,042 - INFO - Successfully wiped: D:/Downloads/Untitled11.ipynb
+2026-03-23 15:45:47,722 - INFO - Starting wipe: D:/Downloads/img_flowchart_horizontal.png (26209 bytes) with crypto
+2026-03-23 15:45:47,731 - INFO - Successfully wiped: D:/Downloads/img_flowchart_horizontal.png
+2026-03-23 15:46:12,476 - INFO - Starting wipe: D:/Downloads/Poster_Canva_Style_A3.png (349180 bytes) with dod
+2026-03-23 15:46:12,554 - INFO - Successfully wiped: D:/Downloads/Poster_Canva_Style_A3.png
+2026-03-23 19:06:20,088 - INFO - Starting wipe: D:/Downloads/Experiment No.5 (FDS).html (837 bytes) with dod
+2026-03-23 19:06:20,105 - INFO - Successfully wiped: D:/Downloads/Experiment No.5 (FDS).html
+2026-03-23 19:12:58,999 - INFO - Starting wipe: D:/Downloads/Mar 17, 2026, 12_00_23 PM.png (2154629 bytes) with dod
+2026-03-23 19:12:59,078 - INFO - Successfully wiped: D:/Downloads/Mar 17, 2026, 12_00_23 PM.png
+2026-03-23 19:17:50,725 - INFO - Starting wipe: D:/Downloads/final Mini Project1.pptx (648471 bytes) with dod
+2026-03-23 19:17:50,775 - INFO - Successfully wiped: D:/Downloads/final Mini Project1.pptx
+2026-03-24 00:47:11,203 - INFO - Starting wipe: D:/Downloads/theme_manager.py (15445 bytes) with crypto
+2026-03-24 00:47:11,212 - INFO - Successfully wiped: D:/Downloads/theme_manager.py
+2026-03-24 01:19:05,854 - INFO - Starting wipe: D:/Downloads/secure_wipe_only.html (16385 bytes) with crypto
+2026-03-24 01:19:05,859 - INFO - Successfully wiped: D:/Downloads/secure_wipe_only.html
