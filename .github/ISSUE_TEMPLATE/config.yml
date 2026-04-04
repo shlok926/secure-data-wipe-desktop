@@ -1,0 +1,20 @@
+# GitHub Configuration
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/shlok926/secure-data-wipe-desktop/discussions
+    about: Join our community discussions
+  
+  - name: 📧 Email Support
+    url: mailto:support@securewipe.com
+    about: Contact us for support
+  
+  - name: 📚 Documentation
+    url: https://github.com/shlok926/secure-data-wipe-desktop/blob/master/README.md
+    about: Read our comprehensive documentation
+  
+  - name: 🐛 Report Security Issue
+    url: mailto:security@securewipe.com
+    about: Report security vulnerabilities responsibly
