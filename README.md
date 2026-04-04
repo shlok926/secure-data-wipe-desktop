@@ -96,27 +96,42 @@
 
 ## 📋 Quick Start
 
-### Option 1: Use Pre-built Executable (Easiest)
+### ⚡ **The Easiest Way (RECOMMENDED)**
+
+**No Python or Installation Required!**
+
+1. **📥 Download** the pre-built executable:
+   - Go to [GitHub Releases](https://github.com/shlok926/secure-data-wipe-desktop/releases)
+   - Download `SecureWipe.exe` (latest version)
+   - Size: ~50-100 MB
+
+2. **▶️ Run** the executable:
+   - Double-click `SecureWipe.exe`
+   - Click "Yes" when prompted for administrator rights
+   - Application starts immediately!
+
+**That's it!** 🎉 No terminal, no Python, no setup needed.
+
+---
+
+### 🛠️ Alternative: Build from Source (For Developers)
+
+If you want to modify the code or build your own version:
 
 ```bash
-# Download SecureWipe.exe from GitHub releases
-# Double-click to run - No installation required!
-```
+# 1. Install Python 3.10+ and Git
 
-### Option 2: Build from Source (5 minutes)
-
-```bash
-# 1. Clone repository
+# 2. Clone repository
 git clone https://github.com/shlok926/secure-data-wipe-desktop.git
 cd secure-data-wipe-desktop
 
-# 2. Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run application
+# 4. Run application
 python secure_wipe_desktop.py
 
-# 4. (Optional) Build standalone .exe
+# 5. (Optional) Build standalone .exe
 python build_exe.py
 # Output: dist/SecureWipe.exe
 ```
@@ -125,29 +140,70 @@ python build_exe.py
 
 ## 🛠️ Installation
 
-### System Requirements
+### ⚡ **EASIEST: Download Pre-built Executable**
+
+Perfect for users who just want to use the application.
+
+**No prerequisites needed!**
+
+1. **Download from GitHub Releases:**
+   ```
+   https://github.com/shlok926/secure-data-wipe-desktop/releases
+   ```
+   - Look for the latest `SecureWipe.exe` file
+   - Download to your computer
+
+2. **Run the Application:**
+   - Double-click `SecureWipe.exe`
+   - Grant admin permissions if prompted
+   - Application starts automatically
+
+**That's all!** No Python, no terminal, no setup needed. ✅
+
+---
+
+### 🔧 **Advanced: Install Python Version**
+
+For developers who want to modify or contribute code.
+
+**System Requirements:**
 
 | Component | Requirement |
 |-----------|-------------|
 | **OS** | Windows 10 or Windows 11 |
-| **Python** | 3.10 or higher (for source builds) |
+| **Python** | 3.10 or higher |
 | **RAM** | 2 GB minimum, 4 GB recommended |
-| **Disk Space** | 500 MB for application + dependencies |
-| **Permissions** | Administrator rights for file/drive operations |
+| **Disk Space** | 500 MB free |
+| **Permissions** | Administrator rights for wiping operations |
 
-### Method 1: Standalone Executable (Recommended)
+**Installation Steps:**
 
-1. **Download** `SecureWipe.exe` from [Releases](https://github.com/shlok926/secure-data-wipe-desktop/releases)
-2. **Run** the executable directly - no installation needed
-3. **Grant** admin permissions when prompted
+1. **Install Python:**
+   - Download from [python.org](https://www.python.org/downloads/)
+   - Choose Python 3.10 or higher
+   - Check "Add Python to PATH"
 
-### Method 2: Python Version
+2. **Clone Repository:**
+   ```bash
+   git clone https://github.com/shlok926/secure-data-wipe-desktop.git
+   cd secure-data-wipe-desktop
+   ```
 
-```bash
-# Prerequisites: Python 3.10+ installed
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Step 1: Clone or download
-git clone https://github.com/shlok926/secure-data-wipe-desktop.git
+4. **Run Application:**
+   ```bash
+   python secure_wipe_desktop.py
+   ```
+
+5. **Build Your Own .exe (Optional):**
+   ```bash
+   python build_exe.py
+   # Creates: dist/SecureWipe.exe
+   ```
 cd secure-data-wipe-desktop
 
 # Step 2: Create virtual environment (recommended)
@@ -165,84 +221,54 @@ python secure_wipe_desktop.py
 
 ## 💻 Building from Source
 
-### Prerequisites
+For developers who want to modify the source code or build a custom version.
 
-**Required:**
-- Python 3.10 or higher ([Download](https://www.python.org/downloads/))
-- pip (comes with Python)
-- Git (optional, for cloning)
-
-**Windows Setup:**
-```bash
-# Verify Python installation
-python --version  # Should show 3.10+
-
-# Verify pip
-pip --version
-```
-
-### Detailed Setup Guide
-
-#### Step 1: Clone Repository
+### Quick Setup (3 Steps)
 
 ```bash
-# Using Git
+# 1. Clone the repository
 git clone https://github.com/shlok926/secure-data-wipe-desktop.git
 cd secure-data-wipe-desktop
 
-# Or download ZIP and extract manually
-```
-
-#### Step 2: Create Virtual Environment
-
-```bash
-# Create isolated Python environment
-python -m venv venv
-
-# Activate environment
-# Windows Command Prompt:
-venv\Scripts\activate
-
-# Windows PowerShell:
-venv\Scripts\Activate.ps1
-
-# macOS/Linux:
-source venv/bin/activate
-```
-
-#### Step 3: Install Dependencies
-
-```bash
-# Install required packages
-pip install --upgrade pip
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# Verify installation
-pip list
-```
-
-#### Step 4: Run Application
-
-```bash
-# Start the application
+# 3. Run the application
 python secure_wipe_desktop.py
-
-# Or with verbose output
-python -v secure_wipe_desktop.py
 ```
 
-#### Step 5: Build Standalone Executable (Optional)
+### Build Custom Executable
 
 ```bash
-# Build .exe file
+# Prerequisites: You have Python 3.10+ and dependencies installed
+
+# Run the build script
 python build_exe.py
 
-# Compiled executable:
-# Output: dist/SecureWipe.exe
-# Size: ~100-150 MB (includes Python runtime)
+# Your executable is ready at:
+# dist/SecureWipe.exe
+```
 
-# Test the executable
-dist\SecureWipe.exe
+### Virtual Environment (Recommended for Development)
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# Windows Command Prompt:
+venv\Scripts\activate
+# Windows PowerShell:
+venv\Scripts\Activate.ps1
+# Linux/Mac:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Now run or build
+python secure_wipe_desktop.py  # Run
+python build_exe.py             # Build exe
 ```
 
 ### Build Configuration
@@ -251,13 +277,13 @@ Edit `build_exe.py` to customize:
 
 ```python
 # Application metadata
-ICON_PATH = "path/to/icon.ico"
-VERSION = "2.0.0"
-COMPANY = "Your Company"
+ICON_PATH = "icon.ico"        # Custom icon
+VERSION = "2.0.0"              # Your version
+COMPANY = "Your Company"       # Your name
 
 # Output options
 OUTPUT_DIR = "dist"
-ONE_FILE = True  # Single executable file
+ONE_FILE = True                # Single exe file
 
 # PyInstaller options
 HIDDEN_MODULES = ["wiper_core", "advanced_features"]
@@ -891,7 +917,7 @@ Security Software Developer
 
 **🔒 SecureWipe Desktop - Professional Data Security**
 
-*Made with ❤️ for data privacy and security*
+*Made with Shlok for data privacy and security*
 
 **Last Updated**: April 2026  
 **Current Version**: 2.0.0  
