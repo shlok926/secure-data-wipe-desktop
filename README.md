@@ -41,7 +41,8 @@
 ## 📋 Table of Contents
 
 - [✨ Features](#-features)
-- [📋 Quick Start](#-quick-start)
+- [� Screenshots](#-screenshots)
+- [�📋 Quick Start](#-quick-start)
 - [🛠️ Installation](#️-installation)
 - [💻 Building from Source](#-building-from-source)
 - [📖 Usage Guide](#-usage-guide)
@@ -94,7 +95,31 @@
 
 ---
 
-## 📋 Quick Start
+## � Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+*Main dashboard showing wipe statistics, system monitoring, and quick actions*
+
+### Secure Wipe Interface
+![Secure Wipe](docs/screenshots/secure-wipe.png)
+*File/folder selection with algorithm choices and verification options*
+
+### Admin Panel
+![Admin Panel](docs/screenshots/admin-panel.png)
+*Administrator controls with system information and configuration options*
+
+### Audit Logs
+![Audit Logs](docs/screenshots/audit-logs.png)
+*Complete operation history with timestamps, file paths, algorithms, and status*
+
+### Compliance Certificate
+![Certificate](docs/screenshots/certificate.png)
+*Automatically generated certificate of destruction for compliance documentation*
+
+---
+
+## �📋 Quick Start
 
 ### ⚡ **The Easiest Way (RECOMMENDED)**
 
