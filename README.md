@@ -127,8 +127,8 @@
 
 1. **📥 Download** the pre-built executable:
    - Go to [GitHub Releases](https://github.com/shlok926/secure-data-wipe-desktop/releases)
-   - Download `SecureWipe.exe` (latest version)
-   - Size: ~50-100 MB
+   - Download `SecureWipe.exe` (latest version: v2.0.0)
+   - Size: 75 MB
 
 2. **▶️ Run** the executable:
    - Double-click `SecureWipe.exe`

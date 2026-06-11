@@ -7,17 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-- [Feature request] Scheduled wipe operations
-- [Feature] Network drive support
-- [Enhancement] Advanced dashboard analytics
+---
+
+## [2.0.1] - 2026-06-11
 
 ### Changed
-- Improved UI responsiveness
-- Enhanced audit logging details
+- 🎨 **UI Refinements**: Professional dark-only theme (removed Light Mode and Auto theme options)
+- 🔐 **Authentication Screen Redesign**: Enterprise-grade login dialog with professional branding
+  - Added "Secure Wipe" title and lock icon
+  - Improved gradient button styling
+  - Optimized button sizing (UNLOCK 44px, EXIT 35px) to prevent overlap
+  - Better spacing and typography
+- 📐 **Layout Optimization**: Reduced padding and increased button spacing for cleaner appearance
+- 🎯 **Qt Stylesheet Compatibility**: Removed CSS-only properties (box-shadow, word-wrap) for better Qt compatibility
 
 ### Fixed
-- [Bug] Minor stability improvements
+- ✅ Stylesheet parsing errors (invalid Qt properties)
+- ✅ Button overlap issues in authentication dialog
+- ✅ UI cluttering on login screen
+
+### Technical
+- Built standalone executable: SecureWipe.exe (75 MB)
+- Verified clean app launch without stylesheet warnings
+- Ready for distribution on Windows 10/11
 
 ---
 
